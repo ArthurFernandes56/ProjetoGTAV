@@ -1,0 +1,67 @@
+@media (max-width: 1024px) {
+
+    .Cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 15px;
+    }
+
+    .Cabecalho .Menu li a {
+        padding: 15px;
+    }
+
+    .Main .Informacoes {
+        padding: 30px;
+    }
+
+    .Main .Informacoes img {
+        max-width: 100px;
+    }
+
+    .Main .Informacoes .Titulo {
+        font-size: 40px;
+    }
+
+    .CompreJa .Cartao {
+        width: 70%;
+    }
+
+}
+@media (max-width: 768px) {
+    .CompreJa{
+        padding: 30px;
+    }
+
+    .CompreJa .Cartao{
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .CompreJa .Informacoes h3{
+        font-size: 35px;
+
+    }
+
+    .CompreJa .Informacoes .Plataformas{
+        flex-direction: column;
+    }
+
+    .btnPlataforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .btnComprar{
+        width: 100%;
+    }
+}
+@media(max-width: 425px){
+    main::after{
+        background: 90deg, rgba(0,0,0,0.85), rgba(0,0,0,0.4),100%, transparent 65% ;
+    }
+
+    .CompreJa .Cartao .CapaDoJOgo{
+        max-width: 80%;
+    }
+}
